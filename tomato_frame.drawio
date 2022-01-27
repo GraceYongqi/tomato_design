@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T07:25:48.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Wu8m-58Y3KYLZZ0v9-5o" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T07:27:17.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="vkmuKc4LulmVKtcR8-Mi" version="16.2.7" type="github">
   <diagram id="g6V1LYvYvE0cFW_qO766" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
         <mxCell id="Sua24pKOZ4_qKl_0Wwsn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sua24pKOZ4_qKl_0Wwsn-4" target="Sua24pKOZ4_qKl_0Wwsn-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sua24pKOZ4_qKl_0Wwsn-11" value="没有喜欢的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sua24pKOZ4_qKl_0Wwsn-10">
+        <mxCell id="Sua24pKOZ4_qKl_0Wwsn-11" value="没有喜欢的，有明确意向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sua24pKOZ4_qKl_0Wwsn-10">
           <mxGeometry x="-0.2111" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -48,6 +48,11 @@
               <mxPoint x="260" y="120" />
               <mxPoint x="260" y="200" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sua24pKOZ4_qKl_0Wwsn-25" value="没有喜欢的，随便逛逛" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sua24pKOZ4_qKl_0Wwsn-16">
+          <mxGeometry x="-0.3368" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Sua24pKOZ4_qKl_0Wwsn-4" value="推荐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -74,8 +79,18 @@
         <mxCell id="Sua24pKOZ4_qKl_0Wwsn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sua24pKOZ4_qKl_0Wwsn-15" target="Sua24pKOZ4_qKl_0Wwsn-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Sua24pKOZ4_qKl_0Wwsn-26" value="有感兴趣的话题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sua24pKOZ4_qKl_0Wwsn-23">
+          <mxGeometry x="0.347" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Sua24pKOZ4_qKl_0Wwsn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sua24pKOZ4_qKl_0Wwsn-15" target="Sua24pKOZ4_qKl_0Wwsn-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sua24pKOZ4_qKl_0Wwsn-27" value="未命中兴趣，有提问交流诉求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sua24pKOZ4_qKl_0Wwsn-24">
+          <mxGeometry x="0.1269" y="-3" relative="1" as="geometry">
+            <mxPoint x="31" y="-20" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Sua24pKOZ4_qKl_0Wwsn-15" value="书荒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="314" y="180" width="100" height="40" as="geometry" />
@@ -87,10 +102,10 @@
           <mxGeometry x="314" y="310" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Sua24pKOZ4_qKl_0Wwsn-21" value="话题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="150" width="100" height="40" as="geometry" />
+          <mxGeometry x="530" y="130" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Sua24pKOZ4_qKl_0Wwsn-22" value="发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="210" width="100" height="40" as="geometry" />
+          <mxGeometry x="530" y="220" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
